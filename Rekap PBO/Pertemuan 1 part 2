@@ -1,0 +1,12 @@
+def main():
+    nama = input("Masukkan Nama Anda =   ")
+    nim  = int(input("Masukkan NPM Anda =    "))
+    nilai = float(input("Masukkan Nilai Anda ="))
+    
+    if nilai > 80 :
+        print(f"Selamat , {nama} dengan (NIM : {nim}) Anda masuk Sistem Cerdas")
+    elif nilai  > 70 :
+        print(f"Selamat , {nama} dengan (NIM : {nim}) Anda Masuk Pemrograman Web")
+    else :
+        print(f"{nama} (NIM:{nim}), Tingkatkan Nilai Anda ")
+main()
